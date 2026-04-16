@@ -1,0 +1,1 @@
+# anilist-client-v2
