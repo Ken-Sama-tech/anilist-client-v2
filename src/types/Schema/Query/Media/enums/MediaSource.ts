@@ -1,0 +1,16 @@
+export type MediaSource =
+  | "ANIME"
+  | "COMIC"
+  | "DOUJINSHI"
+  | "GAME"
+  | "LIGHT_NOVEL"
+  | "LIVE_ACTION"
+  | "MANGA"
+  | "MULTIMEDIA_PROJECT"
+  | "NOVEL"
+  | "ORIGINAL"
+  | "OTHER"
+  | "PICTURE_BOOK"
+  | "VIDEO_GAME"
+  | "VISUAL_NOVEL"
+  | "WEB_NOVEL";

@@ -1,0 +1,31 @@
+import type { ActivitySort, ActivityType } from "../index.js";
+
+export type ActivityArguments = {
+  id: number;
+  userId: number;
+  messengerId: number;
+  mediaId: number;
+  type: ActivityType;
+  isFollowing: boolean;
+  hasReplies: boolean;
+  hasRepliesOrTypeText: boolean;
+  createdAt: number;
+  id_not: number;
+  id_in: number[];
+  id_not_in: number[];
+  userId_not: number;
+  userId_in: number[];
+  userId_not_in: number[];
+  messengerId_not: number;
+  messengerId_in: number[];
+  messengerId_not_in: number[];
+  mediaId_not: number;
+  mediaId_in: number[];
+  mediaId_not_in: number[];
+  type_not: ActivityType;
+  type_in: ActivityType[];
+  type_not_in: ActivityType[];
+  createdAt_greater: number;
+  createdAt_lesser: number;
+  sort: ActivitySort[];
+};

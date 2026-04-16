@@ -1,0 +1,10 @@
+export type UserSort =
+  | "CHAPTERS_READ"
+  | "CHAPTERS_READ_DESC"
+  | "ID"
+  | "ID_DESC"
+  | "SEARCH_MATCH"
+  | "USERNAME"
+  | "USERNAME_DESC"
+  | "WATCHED_TIME"
+  | "WATCHED_TIME_DESC";

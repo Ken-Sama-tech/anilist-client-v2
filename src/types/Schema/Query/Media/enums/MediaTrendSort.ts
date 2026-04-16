@@ -1,0 +1,15 @@
+export type MediaTrendSort =
+  | "DATE"
+  | "DATE_DESC"
+  | "EPISODE"
+  | "EPISODE_DESC"
+  | "ID"
+  | "ID_DESC"
+  | "MEDIA_ID"
+  | "MEDIA_ID_DESC"
+  | "POPULARITY"
+  | "POPULARITY_DESC"
+  | "SCORE"
+  | "SCORE_DESC"
+  | "TRENDING"
+  | "TRENDING_DESC";

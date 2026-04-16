@@ -1,0 +1,17 @@
+export type ThreadSort =
+  | "CREATED_AT"
+  | "CREATED_AT_DESC"
+  | "ID"
+  | "ID_DESC"
+  | "IS_STICKY"
+  | "REPLIED_AT"
+  | "REPLIED_AT_DESC"
+  | "REPLY_COUNT"
+  | "REPLY_COUNT_DESC"
+  | "SEARCH_MATCH"
+  | "TITLE"
+  | "TITLE_DESC"
+  | "UPDATED_AT"
+  | "UPDATED_AT_DESC"
+  | "VIEW_COUNT"
+  | "VIEW_COUNT_DESC";
